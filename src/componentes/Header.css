@@ -1,0 +1,21 @@
+.navHeader {
+    
+    height: 80px;
+    width: 1280px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 16px 40px 16px 40px;
+    justify: space-between;
+
+}
+
+.logoCaixinhasvg {
+
+    height: 48px;
+    width: 82.88492584228516px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
