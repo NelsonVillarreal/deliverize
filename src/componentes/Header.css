@@ -1,21 +1,101 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
 .navHeader {
-    
     height: 80px;
-    width: 1280px;
     left: 0px;
     top: 0px;
     border-radius: 0px;
     padding: 16px 40px 16px 40px;
-    justify: space-between;
+    justify-content: space-between;
+    margin: auto;
+    letter-spacing: 0.2px;
+    
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;    
+}
 
+.logos {
+    width: 40%;
+    display: flex;
+    background: #F4F4F4;
 }
 
 .logoCaixinhasvg {
+    background-color: #F4F4F4;
+}
 
+.logoDeliverizesvg {
+    background-color: #F4F4F4;
+}
+
+.local_entrega {
     height: 48px;
-    width: 82.88492584228516px;
+    width: 230px;
     left: 0px;
     top: 0px;
-    border-radius: 0px;
+    border-radius: 4px;
+    align-items: center;
+    
+    line-height: 25px;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-left: 15px;
+    letter-spacing: 0.2px;
+}
 
+.p_force {
+    font-weight: 500px;
+    line-height: 12px;
+}
+
+.barra_pesquisa { 
+    height: 48px;
+    width: 354px;
+    top: 0px;
+    border-radius: 4px;
+
+    box-sizing: border-box;
+    border: 1px solid #ED3237;
+    border-radius: 4px;
+}
+
+.busca {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+
+    height: 48px;
+    width: 354px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ED3237;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+.login_carrito {
+    align-items: center;
+    display: flex;
+    line-height: 17px;
+    background-color: #F4F4F4;
+}
+
+.login_user {
+    align-items: center;
+    display: flex;
+    line-height: 17px;  
+    background-color:#F4F4F4; 
+}
+
+.icon_user .icon_carrito {
+    background: #F4F4F4;
 }
