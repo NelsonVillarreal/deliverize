@@ -1,27 +1,134 @@
-* {
-    padding:0;
-    margin:0;
-    border:0
-    }
-
 .container {
+    left: 303px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
+    margin: auto;
 
-    position: relative;
-    background: #FFFFFF;
+    height: 710px;
+    width: 1280px;
+    padding: 24px 0px 24px 0px;
+
+    justify-content: space-around;
+    letter-spacing: 0.2px;
+    
+    align-items: center;
 }
-.container_produto {
+
+.hamburguerpng {
+    height: 388px;
+    width: 597px;
+    left: 0px;
+    top: 24px;
+    border-radius: 0px;
+    margin: auto;
+}
+
+.produto {
+    height: 662px;
+    width: 597px;
+    left: 66px;
+    top: 24px;
     border-radius: 0px;
     padding: 24px 0px 24px 0px;
-    justify: space-between;
+    justify-items: space-between;
+    align-items: center;
+
 
 }
 
-.container_form {
-    border-radius: 8px;
-    padding: 32px;
+.nome_produto{
+    height: 91.5px;
+    width: 528.5px;
+    left: 0px;
+    top: 0px;
+    line-height: 28px;
+    color: #4E4E4E;
+}
 
+.descripcao_produto {
+    height: 65.1px;
+    width: 597px;
+    left: 0px;
+    top: 524.4px;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4E4E4E;
+}
+
+.valor {
+    display: flex;
+    flex-direction: row;
+    height: 38px;
+    width: 249px;
+    left: 0px;
+    top: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.preco .desconto{
+   
+    height: 38px;
+    width: 116px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: #4E4E4E;
+    display: flex;
+    line-height: 38.4px;
+    left: 133px;
+}
+
+.preco{
+    margin-right: 17px;
+    color: #DC6E05;
+    left: auto;
+
+}
+
+.desconto{
+    color: #4E4E4E;
+    text-decoration: line-through;
+}
+
+.ingredientes_extras {
+    height: 537px;
+    width: 375px;
+    left: 32px;
+    top: 32px;
+    border-radius: 1px;
+
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.form {
+
+    height: 662px;
+    width: 439px;
+    left: 775px;
+    top: 24px;
+    padding: 32px;
+    
+    box-sizing: border-box;
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 21px;
+    
+    width: 439px;
+    height: 662px;
+    
+    border: 1px solid #686868;
+    border-radius: 8px;
 }

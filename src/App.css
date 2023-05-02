@@ -4,6 +4,8 @@
 }
 
 .App {
+  flex-wrap: wrap;
+  overflow: auto;
 
 display: flex;
 flex-direction: column;
